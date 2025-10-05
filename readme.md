@@ -1,11 +1,11 @@
-# My Portfolio
+# My Portfolio using Bootstrap
 
-This website is made using HTML and CSS with bootstrap:
+This website is made using HTML and CSS with Bootstrap:
 
 - migrated existing first portfolio to use bootstrap layout and styling
 - incorporates at least 3 bootstrap elements
     - tooltip on index gallery button
-    - toast button and message
+    - toast button and message on index page
     - carousel in gallery after initial photos
     - submit button in contact form
 - uses bootstrap utility classes with no custom css
