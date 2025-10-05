@@ -1,18 +1,18 @@
 # My Portfolio
 
-This website is made using HTML and CSS. It has a pastel theme and includes:
+This website is made using HTML and CSS with bootstrap:
 
-- semantic HTML
-- required sections like the Header, About, Projects, Contact, Footer
-- a contact form
-- hyperlinks including `mailto:` and `tel:` attributes
-- images
-- font-family and font-sizings and font-weight
-- contact section including name, email and message
-- a footer
-- a separate CSS file with colours, selectors and display modes
-- flexbox on the gallery page
-- a sticky nav bar
-- alt text
+- migrated existing first portfolio to use bootstrap layout and styling
+- incorporates at least 3 bootstrap elements
+    - tooltip on index gallery button
+    - toast button and message
+    - carousel in gallery after initial photos
+    - submit button in contact form
+- uses bootstrap utility classes with no custom css
+- fully responsive for mobile, tablet and desktop screens
+- navigation and UI elements accessible on all devices
+- avoids layout-breaking issues or elements that overflow
+- semantic HTML elements preserved
+- accessibility attributes used
 
-https://smallfledging.github.io/first_portfolio_bootstrap/
+The link using github pages [first_portfolio_bootstrap](https://smallfledging.github.io/first_portfolio_bootstrap/)
