@@ -15,5 +15,6 @@ This website is made using HTML and CSS with Bootstrap:
 - semantic HTML elements preserved
 - accessibility attributes used
 - jquery widget of an accordion added
+- grid system used on projects page
 
 The link using github pages [first_portfolio_bootstrap](https://smallfledging.github.io/first_portfolio_bootstrap/)
