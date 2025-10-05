@@ -3,56 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Contact</title>
     
 </head>
     <body>
         <header>
             <nav id="nav">
-                <ul class="flex-container">
+                <ul class="display-5 list-unstyled bg-info container-fluid d-sm-block d-md-flex justify-content-md-around p-5">
                     <li>
-                        <a href="index.htm">About</a>
+                        <a href="index.htm" class="text-decoration-none">About</a>
                     </li>
                     <li>
-                        <a href="projects.htm">Projects</a>
+                        <a href="projects.htm" class="text-decoration-none">Projects</a>
                     </li>
                     <li>
-                        <a href="form.htm">Contact</a>
+                        <a href="form.htm" class="text-decoration-none">Contact</a>
                     </li>
                     <li>
-                        <a href="gallery.htm">Gallery</a>
+                        <a href="gallery.htm" class="text-decoration-none">Gallery</a>
                     </li>
                 </ul>
             </nav>
         </header>
         <main>
-            <section class="text-center bottom">
-                <h1 name="top"> Contact me</h1>
+            <section class="text-center d-block">
+                <h1 name="top" class="text-info"> Contact me</h1>
                 <form action="/" method="post" class="form">
-                    <div>
+                    <div class="form-group">
                         <label for="name">Name:</label>
-                        <input type="text" name="name" id="name">
+                        <input type="text" name="name" id="name" class="p-2 d-block mx-auto rounded bg-danger">
                         
                         <label for="email">Email:</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" class="p-2 d-block mx-auto rounded bg-danger">
                         
                         <label for="tel">Phone number</label>
-                        <input type="tel" name="tel" id="tel">
+                        <input type="tel" name="tel" id="tel" class="p-2 d-block mx-auto rounded bg-danger">
                         
                         <label for="msg">Message:</label>
-                        <textarea id="msg" name="user_message"></textarea>
+                        <textarea id="msg" name="user_message" class="p-2 d-block mx-auto rounded bg-danger"></textarea>
                         
-                        <input id="submit" type="submit" value="Submit">
+                        <input id="submit" type="submit" value="Submit" class="mt-2 bg-info rounded btn btn-lg">
                     </div>
                 </form>
-                <a href="#top"><p>Go to the top of the page</p></a>
+                <a href="#top" class="text-center text-decoration-none text-dark"><p>Go to the top of the page</p></a>
             </section>
         </main>
-        <footer id="footer">
-            <h2>Contact details</h2>
-            <a href="tel:+44123456789"><p>Number: +44123456789</p></a>
-            <a href="mailto:testemail@email.com"><p>Email address: testemail@email.com</p></a>
+        <footer id="footer" class="text-center bg-danger fixed-bottom">
+            <h2 class="text-white">Contact details</h2>
+            <a href="tel:+44123456789" class="text-decoration-none text-dark"><p>Number: +44123456789</p></a>
+            <a href="mailto:testemail@email.com" class="text-decoration-none text-dark"><p>Email address: testemail@email.com</p></a>
         </footer>
     </body>
 </html>

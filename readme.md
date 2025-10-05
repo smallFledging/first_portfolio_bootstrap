@@ -15,4 +15,4 @@ This website is made using HTML and CSS. It has a pastel theme and includes:
 - a sticky nav bar
 - alt text
 
-https://smallfledging.github.io/first_portfolio/
+https://smallfledging.github.io/first_portfolio_bootstrap/
